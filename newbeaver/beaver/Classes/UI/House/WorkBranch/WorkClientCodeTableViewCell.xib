@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGk-i7-Jjw" customClass="WorkClientCodeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sqD-kn-CgY">
+                        <rect key="frame" x="15" y="10" width="290" height="90"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="需求编号: XX-K18-3345" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSS-Pa-fhn">
+                                <rect key="frame" x="14" y="12" width="262" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="gEV-Ss-uME"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.25098039215686274" green="0.25098039215686274" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="客户姓名: 王小宇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipm-Iv-qTe">
+                                <rect key="frame" x="14" y="56" width="122" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="QN5-Wc-2Py"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OfR-Id-JlQ">
+                                <rect key="frame" x="0.0" y="40" width="290" height="1"/>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="7ZX-ai-PsH"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="维护人: 陈小琦" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVg-31-cMO">
+                                <rect key="frame" x="154" y="56" width="122" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="uR2-Kx-Zfb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rSS-Pa-fhn" firstAttribute="leading" secondItem="sqD-kn-CgY" secondAttribute="leading" constant="14" id="7ao-Jj-Tbt"/>
+                            <constraint firstItem="dVg-31-cMO" firstAttribute="leading" secondItem="ipm-Iv-qTe" secondAttribute="trailing" constant="18" id="9pr-LE-5s9"/>
+                            <constraint firstItem="ipm-Iv-qTe" firstAttribute="top" secondItem="OfR-Id-JlQ" secondAttribute="bottom" constant="15" id="BY8-tF-szL"/>
+                            <constraint firstItem="dVg-31-cMO" firstAttribute="top" secondItem="OfR-Id-JlQ" secondAttribute="bottom" constant="15" id="OVx-P0-5Hb"/>
+                            <constraint firstAttribute="trailing" secondItem="dVg-31-cMO" secondAttribute="trailing" constant="14" id="PdC-bT-9uG"/>
+                            <constraint firstItem="OfR-Id-JlQ" firstAttribute="leading" secondItem="sqD-kn-CgY" secondAttribute="leading" id="Qdh-E7-U1h"/>
+                            <constraint firstItem="dVg-31-cMO" firstAttribute="leading" secondItem="ipm-Iv-qTe" secondAttribute="trailing" constant="18" id="ke4-uw-41W"/>
+                            <constraint firstAttribute="trailing" secondItem="rSS-Pa-fhn" secondAttribute="trailing" constant="14" id="mPa-IW-Svf"/>
+                            <constraint firstItem="rSS-Pa-fhn" firstAttribute="top" secondItem="sqD-kn-CgY" secondAttribute="top" constant="12" id="nSy-CP-Cr9"/>
+                            <constraint firstItem="dVg-31-cMO" firstAttribute="width" secondItem="ipm-Iv-qTe" secondAttribute="width" id="oP2-dJ-OgY"/>
+                            <constraint firstItem="ipm-Iv-qTe" firstAttribute="leading" secondItem="sqD-kn-CgY" secondAttribute="leading" constant="14" id="rCs-65-UjO"/>
+                            <constraint firstItem="OfR-Id-JlQ" firstAttribute="top" secondItem="rSS-Pa-fhn" secondAttribute="bottom" constant="13" id="zXb-Fa-Jbd"/>
+                            <constraint firstAttribute="trailing" secondItem="OfR-Id-JlQ" secondAttribute="trailing" id="zYX-Hf-w5Y"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sqD-kn-CgY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="bYC-Vc-ljn"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sqD-kn-CgY" secondAttribute="bottom" constant="2" id="doC-5J-inj"/>
+                    <constraint firstItem="sqD-kn-CgY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="oNt-tW-Nvt"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="sqD-kn-CgY" secondAttribute="trailing" constant="7" id="ydz-Xm-An5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backView" destination="sqD-kn-CgY" id="PsI-9w-VUe"/>
+                <outlet property="code" destination="rSS-Pa-fhn" id="11E-gG-Khn"/>
+                <outlet property="name" destination="ipm-Iv-qTe" id="99X-lO-ETC"/>
+                <outlet property="person" destination="dVg-31-cMO" id="YzL-md-L8H"/>
+            </connections>
+            <point key="canvasLocation" x="223" y="293.5"/>
+        </tableViewCell>
+    </objects>
+</document>

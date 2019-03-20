@@ -1,0 +1,1255 @@
+/* 
+  Localizable.strings
+  qrcode
+
+  Created by 何 义 on 13-11-17.
+  Copyright (c) 2013年 crazyant. All rights reserved.
+*/
+
+"sZYFilterReset" = "重置";
+"sZYFilterCommit" = "完成";
+
+"message_from_fangshixiong" = "来自美丽屋APP";
+"client" = "客户";
+"house" = "房源";
+"message" = "消息";
+"tool" = "工具";
+"resend" = "重新发送";
+"placeholder_company" = "公司编号";
+"placeholder_account" = "员工登录名";
+"placeholder_pwd" = "密码";
+"btn_login" = "登录";
+"btn_change" = "修改";
+"btn_resend" = "重新发送";
+"user_codevery_resend_active"    = "重发短信";
+"user_codevery_resend_wait"      = "发短信告诉我";
+"user_codevery_recallsend_active"  = "重打电话";
+"user_codevery_recallsend"       = "打电话告诉我";
+"btn_recall" = "没接到，请再打给我";
+"app_title" = "中环经纪人助手";
+"product_title" = "中环经纪人助手";
+"title_back" = "返回";
+"title_ok" = "确认";
+"btn_yes" = "好";
+"title_add" = "添加";
+"title_complete" = "完成";
+"app_description" = "<p>仅供中环授权合作伙伴员工使用</p><p>详情请咨询贵公司IT管理员</p><p>© 2018 中环经纪人助手</p><p><a href='http://www.zhdclink.com'>中环地产官网</a></p>";
+"toolbar_previous" = "上一项";
+"toolbar_next" = "下一项";
+"toolbar_done" = "完成";
+"title_verify_phone" = "验证手机号";
+"title_verify_anonynum" = "验证您用于隐号通话的电话号码";
+"verify_code_hint_sms" = "<b>%@</b>，欢迎使用中环经纪人助手。\r\n已向您在公司登记的手机号<b>%@</b>发送了短信验证码，收到后请在下方的框内输入:\r\n<font color=gray>手机号错误? 请联系公司IT管理员。</font>";
+"verify_code_hint_voice" = "<b>%@</b>，欢迎使用中环经纪人助手。\r\n您在公司登录的手机号码<b>%@</b>即将接到一个电话，请接听，并记下验证码，然后在下方输入:\r\n<font color=gray>手机号错误? 请联系公司IT管理员。</font>";
+"verify_wrong_number" = "<b>%@</b>，欢迎使用中环经纪人助手。\r\n\您在公司登记的手机号<b>%@</b>格式不正确，无法验证，请联系公司IT管理员。";
+"app_version_intro" = "中环经纪人助手\niPhone版 v%@\n© 2017 中环地产";
+"scan_qrcode" = "扫描二维码";
+"photo_upload" = "拍照上传";
+"photo_failure_count" = "失败：%d张";
+"loan_calculator" = "贷款计算器";
+"calculate" = "计算";
+"workmate_contacts" = "同事通讯录";
+"new_house" = "新房";
+"new_house_client_follow" = "新房客户跟进";
+"photo_uploading" = "上传照片中";
+"photo_desc" = "照片和备注";
+"setting" = "设置";
+"change_pwd" = "修改密码";
+"logout" = "退出登录";
+"setting" = "设置";
+"photos" = " 相册";
+"upload_select_0" = "拍照";
+"upload_select_1" = "从手机相册选择照片";
+"upload_select_2" = "拍摄视频";
+"upload_select_3" = "从手机相册选择视频";
+
+"edit_give_up_warn"    = "您要放弃此次编辑吗？";
+
+"user_setavatar_album_restrict_tip"     = "请在 iPhone 的“设置-隐私-照片”选项中，允许中环经纪人助手访问您的照片。";
+"user_setavatar_camera_restrict_tip"    = "请在 iPhone 的“设置-隐私-相机”选项中，允许中环经纪人助手访问您的相机。";
+
+"scanning_hint" = "请框住二维码，并保持稳定";
+"scanning_loading" = "正在加载...";
+"scanning_desc" = "扫描二维码可以做什么?\r\n• 登录ERP；\r\n• 下载房源信息；\r\n• 下载客户信息。\r\n此处只能扫描中环经纪人助手系统内的二维码。";
+"placeholder_current_pwd" = "当前密码";
+"placeholder_new_pwd" = "新密码";
+"placeholder_confirm_pwd" = "确认新密码";
+"calculator1" = "商业贷款";
+"calculator2" = "公积金";
+"calculator3" = "组合";
+"qr_not_supported" = "不是中环经纪人助手系统支持的二维码";
+"input_group_name" = "修改群名称";
+"house_photo_add_more" = "＋添加更多照片";
+"house_photo_add_location" = "请选择图片位置";
+"uploading_desc" = "上传过程中您可以继续其他操作，无需等待，系统将自动为您上传，并且在系统的通知中心显示上传进度。";
+"uploading_finished_with_failure" = "%d张房源照片上传完成，%d张失败";
+"uploading_finished" = "房源照片上传完成";
+"uploading_photo_progress" = "正在上传房源照片... %d/%d";
+"uploading_photo_start" = "您所选的照片已经开始上传了。在上传完成前，请不要退出app。";
+"uploading_video_start" = "您所选的视频已经开始上传了。在上传完成前，请不要退出app。";
+
+"title_yes"="是";
+"title_no"="否";
+
+"md_paytype" = "还款方式";
+"md_calctype" = "计算方式";
+"md_price_unit" = "单价";
+"md_area" = "面积";
+"md_percent" = "按揭成数";
+"md_periods" = "按揭期数";
+"md_interest_rate" = "商业贷款利率";
+"md_interest_rate_f" = "公积金贷款利率";
+"md_fund_amount" = "公积金贷款";
+"md_commercial_amount" = "商业贷款";
+"md_amount" = "贷款总额";
+
+"alert_login_incomplete" = "请完善登录信息";
+"alert_login_company_wrong" = "公司编号错误";
+"alert_login_login_wrong" = "用户名或密码错误";
+
+"retry" = "重试";
+"upload_finished" = "已完成";
+"upload_failure" = "上传失败";
+"upload_queueing" = "排队中";
+
+"no_more" = "没有更多了";
+
+"md_paytype_interest" = "等额本息";
+"md_paytype_principal" = "等额本金";
+
+"md_calctype_unit" = "按单价计算";
+"md_calctype_amount" = "按贷款总额";
+
+"md_periods_format" = "%d年 %d期";
+"md_percent_format" = "%d成";
+
+"alert_input_old_pwd" = "请输入原密码";
+"alert_input_new_pwd" = "请输入新密码";
+"alert_input_confirm_pwd" = "请确认新密码";
+"alert_input_length_wrong" = "密码长度必须控制在6-20位";
+"alert_input_confirm_wrong" = "两次新密码输入不一致";
+"alert_change_success" = "密码修改成功!";
+
+"md_rate_top" = "利率上限";
+"md_rate_top_format1" = "(%.1f倍)";
+"md_rate_top_format2" = "(%.2f倍)";
+"md_rate_base" = "基准利率";
+"md_rate_bottom" = "利率下限";
+"md_rate_bottom_format" = "(%d折)";
+"md_rate_format" = "%d年%d月%d日%@%@";
+"md_pl_money" = "万元";
+"md_pl_money_per" = "元/平方米";
+"md_pl_area" = "平方米";
+
+"md_result_total_mortgage" = "贷款总额";
+"md_result_periods" = "按揭期数";
+"md_result_interest" = "利息总额";
+"md_result_total_pay" = "还款总额";
+"md_result_per_month" = "月均还款";
+"md_result_plan_month" = "每月还款";
+"md_result_hint" = "计算结果仅供参考，请以实际交易金额为准。";
+"md_result_yuan_fmt" = "%@元";
+"md_result_period_fmt" = "第%d期";
+"md_result" = "计算结果";
+
+"md_rate_format_single" = "%@ (%.2f%%)";
+"md_rate_format_double" = "%@ (%.2f%%, %.2f%%)";
+
+"recent_view" = "最近查看";
+"collected" = "已收藏";
+"filter" = "筛选";
+"delete" = "删除";
+"modify" = "更改";
+"filter_house" = "筛选房源";
+"filter_client" = "筛选客户";
+"special" = "特选";
+"category_add_custom" = " 自订特选条件";
+"category_nearby_format" = "%@最近更新的在售房源:";
+
+"filter_rental" = "请选择租售";
+"filter_district" = "区域";
+"filter_price" = "价格";
+"filter_room" = "居室";
+"filter_area" = "面积";
+"filter_towards" = "朝向";
+"filter_renovate" = "装修";
+"filter_status" = "状态"; //2018
+"filter_photo" = "有照片";
+"no_picture" = "没有视频和图片";
+
+"confirm_logout" = "确认退出登录?";
+
+"pl_custom_condition_name" = "请输入自订特选房源名称";
+"pl_input_community" = "请输入小区名";
+"pl_input_district" = "请输入区域";
+
+"assign_community" = "指定小区";
+
+"title_right" = "对";
+"title_wrong" = "不对，换一个";
+
+"title_custom_condition" = "编辑自订特选条件";
+"save" = "保存";
+"start_chatting" = "开始对话";
+"new_chatting" = "创建新对话";
+"saved_groups" = "已保存的群";
+"pr_scan_client" = "同事用中环经纪人助手app扫描此二维码，\r\n可以快速查看此客户信息。";
+"pr_scan_house" = "同事用中环经纪人助手app扫描此二维码，\r\n可以快速查看此房源信息。";
+
+"recommend_format" = "发短信邀请给系统里<font>%@</font>的电话：";
+"recommend_hint_format" = "如果您有<font>%@</font>其他的联系方式，请选择并发送房源推荐：";
+"invite_hint_format" = "如果您有<font>%@</font>其他的联系方式，请选择并发送邀请：";
+
+"confirm_login_erp" = "您是否要在电脑上登录ERP?";
+"confirm_login" = "确认登录";
+
+"share_with_url" = "已附带房源链接";
+"share_with_long_weibo" = "已自动生成长微博";
+"share_via_sms" = "短信分享";
+
+"loading_login" = "正在登录...";
+"loading_sending" = "正在发送...";
+"loading_creating_cvsn" = "正在创建对话...";
+
+"confirm_ok" = "确认";
+"wrong_verify_code" = "验证码错误";
+"go_on" = "继续";
+
+"recommend_via_sms" = "短信推荐";
+"group_conversation_not_saved" = "该群还没有保存到通讯录，确认删除吗？";
+
+"rental_house_state_1" = "出租";
+"rental_house_state_2" = "出售";
+"rental_house_state_3" = "出租/出售";
+
+"rental_client_state_1" = "求租";
+"rental_client_state_2" = "求购";
+"rental_client_state_3" = "求租/求购";
+
+
+"rental_house_0" = "出租";
+"rental_house_1" = "出售";
+"rental_house_2" = "所有";
+"rental_client_0" = "求租";
+"rental_client_1" = "求购";
+"rental_client_2" = "所有";
+
+"own_house_0" = "本人";
+"own_house_1" = "本店";
+"own_house_2" = "所有";
+
+"type_house_0" = "住宅";
+"type_house_1" = "写字楼";
+"type_house_2" = "商铺";
+"type_house_3" = "厂房";
+"type_house_4" = "所有";
+
+"towards_0" = "不限";
+"towards_1" = "东";
+"towards_2" = "南";
+"towards_3" = "西";
+"towards_4" = "北";
+"towards_5" = "南北";
+"towards_6" = "东西";
+
+"cancel" = "取消";
+"pl_search_0" = "搜索房源";
+"pl_search_1" = "搜索客户";
+"pl_search_2" = "搜索通讯录";
+"pl_search_3" = "搜索消息";
+"pl_search_4" = "搜索地点";
+
+"search_house_0" = "业主电话";
+"search_house_1" = "房源编号";
+"search_house_2" = "小区名";
+"search_house_3" = "门牌号";
+"search_house_4" = "座栋名";
+"search_house_5" = "业主姓名";
+"search_house_6" = "委托书编号";
+
+"search_client_0" = "客户电话";
+"search_client_1" = "客户编号";
+"search_client_2" = "客户姓名";
+
+"sell_price_amount" = "%@万";
+"format_unit_cost_0" = "%.0f元/平米";
+"format_unit_cost_1" = "%.1f元/平米";
+"format_unit_cost_2" = "%.2f元/平米";
+"share" = "分享";
+"share_house" = "分享房源";
+"share_visitlogs" = "看房记录";
+"send_invite" = "邀请看房";
+"spread" = "传播";
+"send_recommend" = "发送推荐";
+"send_recommend_again" = "再次推荐";
+"finish_selection" = "确认选择";
+"confirm" = "确定";
+"hint_select_appellation" = "选择称呼";
+"hint_select_tel_desc" = "选择说明";
+
+"associate_search_empty" = "没有搜索结果";
+
+
+"loading" = "正在加载";
+"loading_fail" = "载入失败";
+"loading_empty" = "列表为空";
+"format_year" = "%d年";
+"format_floor" = "%d层/%d层 %d梯%d户";
+"current_situation" = "现状";
+"facility"          = "配套";
+"decoration"        = "装修情况";
+
+"profile_btn_send_im" = "发内部消息";
+"profile_btn_save_contact" = "保存到手机通讯录";
+"tap_to_download" = "点击下载";
+"image_downloading" = "正在下载...";
+
+
+"house_detail_format" = "%d室%d厅 %.f平米";
+"house_detail_format1" = "%.f平米";
+"house_room_format" = "%d室";
+
+"room_0" = "不限";
+"room_1" = "1室";
+"room_2" = "2室";
+"room_3" = "3室";
+"room_4" = "4室";
+"room_5" = "5室";
+"room_6" = "5室以上";
+
+"gender_format_f" = "%@女士";
+"gender_format_m" = "%@先生";
+
+
+"search_title_0" = "房源类型：";
+"search_title_1" = "客户需求：";
+
+"sort_house_order_0" = "新";
+"sort_house_order_1" = "价格";
+"sort_house_order_2" = "面积";
+
+"house_open_by_meiliwu_deny_warn" = "抱歉，当前您无权查看这套房源，请联系公司管理员解决。";
+
+"empty_recent_client" = "您最近没有查看客户";
+"empty_search_client" = "没有搜到客户";
+"empty_filter_client" = "没有符合条件的客户";
+"empty_match_client" = "没有匹配的客户";
+"empty_mark_client" = "没有已标记的客户";
+"empty_recommend_client" = "没有已发送过推荐的客户";
+"empty_share_client" = "没有匹配出可供分享的客户";
+"empty_invite_client" = "没有待约看的客户(或已全部过期)。";
+"empty_collected_client" = "没有已收藏的客户。";
+"empty_visit_log" = "没有带看记录";
+"empty_invitetip_client" = "您可以在客户详情界面点击“邀请看房”来添加约看。";
+"empty_collectedtip_client" = "您可以在客户详情界面点击右上角的心形按钮收藏。";
+"empty_follow_client" = "没有跟进记录";
+
+"empty_recent_house" = "您最近没有查看房源";
+"empty_search_house" = "没有搜到房源";
+"empty_filter_house" = "没有符合条件的房源";
+"empty_match_house" = "没有匹配的房源";
+"empty_mark_house" = "没有已标记的房源";
+"empty_recommend_house" = "没有已推荐过的房源";
+"empty_collected_house" = "没有已收藏的房源。";
+"empty_collectedtip_house" = "您可以在房源详情界面点击右上角的心形按钮收藏。";
+"empty_follow_house" = "没有跟进记录";
+
+"empty_contact_list" = "同事通讯录是空的";
+"empty_search_contact" = "没有搜到同事";
+
+"empty_invited_house" = "没有已邀请约看的房源";
+
+"search_prompt_format" = "%@<font color='#76a6e9'>“%@”</font>";
+"search_result" = "搜索结果";
+
+"rent_price_amount" = "%.0f-%.0f /月";
+"buy_price_amount" = "%.0f-%.0f 万";
+"rent_price_amount2" = "%.0f /月";
+"buy_price_amount2" = "%.0f 万";
+
+"client_require_format" = "%@-%@室 %@-%@平米 \r\n%@ %@\r\n<font color='#a8a9aa'>%@</font>";
+"client_require_share_format" = "%@%@-%@室, %@-%@平米, 预算%@";
+
+"format_unit_room" = "%@室";
+"format_unit_room_hall" = "%d室%d厅";
+"format_unit_area" = "%@平米";
+"format_area" = "%.0f平米";
+"format_length" = "%@米";
+"zero_length" = "0米";
+"zero_area" = "0平米";
+
+"house_depth_format" = "纵深%@";
+"house_height_format" = "高%@";
+"house_door_width_format" = "门宽%@";
+"house_work_shop_area_format" = "厂房面积%.0f平米";
+"house_usable_area_format" = "使用面积%@";
+"house_floor_area_format" = "占地面积%@";
+"house_land_area_format" = "土地面积%.0f平米";
+"house_area_format" = "面积%.0f平米";
+
+"house_land_area" = "土地面积";
+"work_shop_area" = "厂房面积";
+"house_dorm_area" = "宿舍面积";
+"house_canteen_area" = "食堂面积";
+"house_office_area" = "办公面积";
+"house_space_area" = "空地面积";
+"house_land_bearing" = "地面承重";
+"house_power" = "变电量";
+
+"house_source" = "来源";
+"house_inputuser" = "录入人";
+//"house_delegationUser" = "委托人"; //lwl
+"house_delegationUser" = "维护人";
+"house_keyuser" = "得钥匙人";
+"house_keystore" = "存钥匙店";
+"house_closeuser" = "封盘人";
+
+"house_delegation_type" = "委托性质";
+"house_delegation_code" = "委托编号";
+"house_visit_cat" = "看房方式";
+"house_submit_date" = "交房日期";
+
+"house_address" = "地址";
+"house_road" = "路段";
+"house_map" = "地图";
+
+"deleagtion_contact_format" = "<a href='http://contact.open#%@'>%@ %@</a>";
+
+"deleagtion_format0" = "委托人 <a href='http://contact.open'>%@ </a>\r\n%@录入";
+"deleagtion_format" = "委托人 <a href='http://contact.open#%@'>%@ %@</a>\r\n%@录入";
+
+"btn_call_recode" = "通话录音";
+
+"btn_client_invite" = "邀请看房";
+"btn_track_record" = "跟进记录";
+"btn_view_record" = "带看记录";
+"btn_match_house" = "匹配房源";
+"btn_match_client" = "匹配客户";
+"btn_marked" = "已标记";
+"mark_canceled" = "已取消标记";
+"btn_recommended" = "已推荐";
+"no_access_to_phone" = "无权查看电话号码和门牌号";
+"no_access_to_client_phone" = "无权查看电话";
+"no_access_to_this_phone" = "您没有权限查看该客户电话号码";
+"view_phone" = "查看电话号码和门牌号";
+//"view_phone_house" = "查看电话号码和门牌号";
+"view_phone_house" = "查看电话号码";
+// 隐号通话
+"making_call" = "拨打电话";
+"making_call_format_times" = "今日还能拨打%d次电话";
+"making_call_no_chance_anonymous" = "今日还能拨打0次电话";
+"making_call_no_access_to_phone" = "无权拨打电话";
+
+
+"hidden_call" = "隐号通话";
+"view_housenum" = "显示门牌号";
+"input_by_me_house" = "您录入的房源";
+"own_by_me_house" = "您本人的房源";
+"view_client_phone" = "查看电话号码";
+"input_by_me_client" = "您录入的客户";
+"own_by_me_client" = "您本人的客户";
+"mutli_phonenum" = "多个电话号码";
+"no_phonenum" = "没有电话号码";
+
+
+"anonymous_phone_unstart" = "了解并启用隐号通话";
+"anonymous_phone_start" = "您的用于隐号通话的电话号码";
+"anonymous_title" = "隐号通话功能可以让您在看不到业主或客户电话的情况下，通过呼叫中心给他们打电话。\n操作方法：";
+"anonymous_text_1" = "1. 点击隐号通话按钮＝告诉呼叫中心“我要打电话”；\n2. 很快，呼叫中心就会自动打给您；\n3. 您接之后，会听到拨号音，这是呼叫中心自动正在给对方打；\n4. 对方接听，你们就开始通话了。";
+"anonymous_text_2" = "隐号通话全程录音，并自动生成语音跟进记录。";
+"anonymous_text_3" = "为了以下两点，请检查您的电话号码是否正确：";
+"anonymous_text_4" = "• 让您能接听到呼叫中心的电话；\n• 让对方电话能正确显示您的电话号码。";
+"anonymous_check_5" = "请检查您的电话号码是否正确，以确保可以接到呼叫中心的电话：";
+"anonymous_change" = "在本app的设置页面也可以修改。";
+"anonymous_contiue" = "确认，开始启用";
+"anonymous_modyfy" = "修改";
+"anonymous_start_title" = "隐号通话功能可以让您在看不到业主或客户电话的情况下，通过呼叫中心给他们打电话。操作方法：";
+"anonymous_start_text_3" = "您和业主或客户隐号通话时，对方的电话显示的是这个号码：";
+"anonymous_phone_choose_title" = "您要设置的用于隐号通话的电话号码是？";
+"anonymous_phone_set_mobile" = "手机号码";
+"anonymous_phone_set_fix_1" = "座机号码（有分机）";
+"anonymous_phone_set_fix_2" = "座机号码（无分机）";
+"anonymous_phone_set_title" = "隐号通话电话号码";
+"anonymous_phone_set_fix" = "请输入您的座机号码：";
+"anonymous_phone_set_fix_show_1" = "区号";
+"anonymous_phone_set_fix_show_2" = "座机号码";
+"anonymous_phone_set_fix_show_3" = "分机号";
+"anonymous_phone_set_fix_show_4" = "转";
+"anonymous_phone_set_mobile_title" = "请输入您的手机号码：";
+"anonymous_phone_set_mobile_show" = "手机号码";
+"anonymous_phone_set_mobile_error_1" = "请输入正确的手机号码";
+"anonymous_phone_set_mobile_error_2" = "请输入中国大陆地区手机号码";
+"anonymous_phone_set_areacode_error_1" = "请输入区号";
+"anonymous_phone_set_areacode_error_2" = "请输入正确的区号";
+"anonymous_phone_set_fixnum_error_1" = "请输入座机号码";
+"anonymous_phone_set_fixnum_error_2" = "请输入正确的座机号码";
+"anonymous_phone_set_extension_error_1" = "请输入分机号";
+"anonymous_phone_set_extension_error_2" = "请输入正确的分机号";
+"anonymous_mobile_default_show" = "手机号码";
+"anonymous_fix_area_show" = "区号";
+"anonymous_fix_num_show" = "座机号码";
+"anonymous_fix_extension_show" = "分机号码";
+
+"followlog_add_title" = "新增跟进记录";
+"followlog_commit" = "提交";
+"followlog_placeholder" = "请输入跟进记录";
+"followlog_way_title" = "跟进方式";
+"followlog_way_add_warn" = "请选择跟进方式";
+"followlog_way_add_please" = "请选择";
+"followlog_way_add_content_warn" = "请输入备注";
+"followlog_add_text_1" = "您发起了与";
+"followlog_add_text_2" = "业主 %@";
+"followlog_add_text_3" = "的隐号通话，这次通话的状态或录音将自动生成一条跟进记录。请在通话结束后为该跟进添加备注，以便查阅：";
+"followlog_add_placeholder" = "点击输入备注";
+"followlog_add_commit" = "提交备注";
+"followlog_add_commiting" = "正在提交备注";
+"followlog_add_committed" = "备注已提交。";
+"followlog_add_warn" = "在提交备注前，您无法使用其他功能。";
+"followlog_add_client_name_format_rent" = "求租客户 %@";
+"followlog_add_client_name_format_sale" = "求购客户 %@";
+"followlog_add_client_name_format_both" = "求购/租客户 %@";
+"followlog_add_way" = "电话跟进";
+"note" = "备注";
+
+
+"mutli_phone_mobile" = "手机%@";
+"mutli_phone_fix" = "座机%@";
+"mutli_phone_title" = "业主有多个电话号码，请选择：";
+"mutli_phone_title_client" = "客户有多个电话号码，请选择：";
+
+"view_now" = "查看";
+"view_phone_format" = "今天还可查看%d个";
+"view_phone_format_entire" = "今日还剩%d个查看房源电话号码的机会";
+//"view_phone_format_entire" = "今日还剩%d个查看房源电话号码和门牌号的机会";
+"view_phone_format_entire_client" = "今日还剩%d个查看客户电话号码的机会";
+"share_phone_format_client" = "今天还可查看%d个电话号码";
+"view_phone_no_chance" = "今天还可查看0次(点击求助)";
+"view_phone_no_chance_anonymous" = "今天还可查看0次";
+"view_phone_no_chance_help" = "请联系贵公司ERP管理员，请其以admin身份登录ERP，在“手机APP管理”内调整“看电话权限”。";
+"share_to_clients" = "分享给客户";
+
+"input_code_title_house" = "添加哪套房源?";
+"input_code_scan_house" = "扫描房源二维码";
+"input_code_input_house" = "或输入房源编号";
+
+"input_code_title_client" = "添加哪位客户?";
+"input_code_scan_client" = "扫描客户二维码";
+"input_code_input_client" = "或输入客户编号";
+"yes_known" = "好的";
+
+/**********add by wyl**************/
+"invite_title" = "邀请看房";
+"invite" = "＋邀请";
+"nextstep" = "下一步";
+"appoint_history" = "以下为您之前发出的邀请";
+"add_invite_house" = "添加约看房源";
+"search_house_invitepage" = "搜索房源";
+"qr_house_invitepage" = "扫描房源二维码";
+"sel_rencent_house" = "从最近查看的房源中选择";
+"sel_mark_house" = "从已标记的房源中选择";
+"sel_commond_house" = "从已推荐的房源中选择";
+"added_invite_house" = "已添加约看房源";
+"time_invitepage" = "时间";
+"location_invitepage" = "地点";
+"address_invitepage" = "地址";
+"map_invitepage" = "地图";
+"geographical_position" = "地理位置";
+
+"visit_send" = "发给";
+"send_reminder" = "（不会暴露带看文字）";
+
+
+"sns_0" = "微信";
+"sns_1" = "微信朋友圈";
+"sns_2" = "QQ";
+"sns_3" = "QQ空间";
+"sns_4" = "新浪微博";
+"sns_5" = "短信";
+"sns_6" = "电子邮件";
+"sns_7" = "同事";
+"sns_8" = "客户";
+"sns_9" = "发布到号外";
+//"sns_9" = "发布到端口";
+//"sns_10" = "发布到号外";
+"status_processing" = "正在处理";
+
+"confirm_delete" = "确认删除?";
+"confirm_yes" = "是，删除";
+"confirm_logout_yes" = "是，退出";
+"confirm_quit_group" = "确认退出本群?";
+"confirm_clear_message" = "确认清除历史消息?";
+"confirm_clear" = "是，清除";
+"confirm_delete_condition" = "确认删除该自选条件?";
+"alert_condition_name" = "请为自选条件输入名称";
+"alert_condition_name_length" = "条件名称请不要超过10个字!";
+
+"toast_sync_data" = "正在同步数据...";
+
+"group_format" = "群(%d人)";
+"chat_info" = "聊天信息";
+"no_message" = "没有消息";
+"view_detail" = "查看详情";
+
+//"force_update" = "app新版本 \n 1.暂时屏蔽了修改座栋,单元,房源。\n 2.测试换行";
+
+"force_update_or" = "中环经纪人助手app有一些内容更新，是否选择重新下载?";
+
+"force_update" = "中环经纪人助手app有非常重要的更新，必须现在下载。";
+
+"force_update_confirm" = "现在下载";
+
+
+"update_check" = "检查更新";
+"update_download" = "下载新版v%@";
+"update_no_new" = "没有发现更新的版本";
+"appointment_time_format" = "yyyy年MM月dd日 a hh:mm";
+"appointment_time_format_to_client_1" = "yyyy年MM月dd日ahh点mm分";
+"appointment_time_format_to_client_2" = "yyyy年MM月dd日ahh点";
+
+
+"appointment_im_content_format" = "%@，%@。点击查看地图和详情";
+"appointment_sms_content_format" = "%@，您好！%@您有空吗？一起看 %@ 的房子吧。地图和详情请点击 %@。 %@ %@";
+"appointment_mail_title_format" = "邀请看房-%@-%@";
+
+
+/*
+time ago
+*/
+
+/* No comment provided by engineer. */
+"%d days ago" = "%d天前";
+
+/* No comment provided by engineer. */
+"%d hours ago" = "%d小时前";
+
+/* No comment provided by engineer. */
+"%d minutes ago" = "%d分钟前";
+
+/* No comment provided by engineer. */
+"%d months ago" = "%d个月前";
+
+/* No comment provided by engineer. */
+"%d seconds ago" = "%d秒前";
+
+/* No comment provided by engineer. */
+"%d weeks ago" = "%d周前";
+
+/* No comment provided by engineer. */
+"%d years ago" = "%d年前";
+
+/* No comment provided by engineer. */
+"A minute ago" = "1分钟前";
+
+/* No comment provided by engineer. */
+"An hour ago" = "1小时前";
+
+/* No comment provided by engineer. */
+"Just now" = "刚刚";
+
+/* No comment provided by engineer. */
+"Last month" = "上个月";
+
+/* No comment provided by engineer. */
+"Last week" = "上周";
+
+/* No comment provided by engineer. */
+"Last year" = "去年";
+
+/* No comment provided by engineer. */
+"Yesterday" = "昨天";
+
+/* You can add a space between the number and the characters. */
+"1 year ago" = "1年前";
+
+/* You can add a space between the number and the characters. */
+"1 month ago" = "1个月前";
+
+/* You can add a space between the number and the characters. */
+"1 week ago" = "1周前";
+
+/* You can add a space between the number and the characters. */
+"1 day ago" = "1天前";
+
+/* No comment provided by engineer. */
+"This morning" = "今天上午";
+
+/* No comment provided by engineer. */
+"This afternoon" = "今天下午";
+
+/* No comment provided by engineer. */
+"Today" = "今天";
+
+/* No comment provided by engineer. */
+"This week" = "本周";
+
+/* No comment provided by engineer. */
+"This month" = "本月";
+
+/* No comment provided by engineer. */
+"This year" = "今年";
+
+
+"Send" = "发送";
+
+"recording_press" = "按住 说话";
+"recording_release" = "松开 结束";
+"im_more_0" = "照片";
+"im_more_1" = "拍照";
+"im_more_2" = "地点";
+"im_more_3" = "汇报位置";
+"im_btn_send" = "发送";
+"im_microphone_hint" = "松手发送，滑上来取消";
+"im_microphone_hint_release" = "松手取消";
+"im_report_location" = "<font size=16>汇报位置</font>\r\n<font size=14>%@</font>";
+"location_select_title" = "选择地理位置";
+"yes_got_it" = "知道了";
+
+"confirm_delete_cvsn" = "确认删除该会话?";
+
+"cvsn_picture" = "[图片]";
+"cvsn_audio" = "[语音]";
+"cvsn_house" = "[房源]";
+"cvsn_new_house" = "[新房源]";
+"cvsn_client" = "[客户]";
+"cvsn_share_location" = "[地理位置]";
+"cvsn_report_location" = "[汇报位置]";
+"allow_location_service" = "您禁用了本app的定位功能，请在手机的 设置 - 隐私 - 位置服务 中允许“中环经纪人助手”使用定位服务";
+"allow_photo_service" = "您禁用本app访问照片了，请在手机的 设置 - 隐私 - 照片 中允许“中环经纪人助手”访问";
+"request_location_failure" = "未能获取您的当前位置，可能是网络状况不好，请稍后再试";
+
+"deleted_contact" = "[已删除用户]";
+"house_from_same_community" = "同小区房源";
+
+"cvsn_dept_format" = "（%@）";
+
+"im_group_create_hint_format" = "您将 %@ 加入本群了";
+"im_group_kick_hint_format" = "您将 %@ 移出本群了";
+"im_group_joined_hint_format" = "%@ 加入了本群";
+"im_group_left_hint_format" = "%@ 退出本群了";
+
+"im_notification" = "通知";
+"im_clear_msg" = "清空聊天记录";
+"im_save_group" = "保存至同事通讯录";
+"im_quit_group" = "退群";
+"im_group_name" = "群名称";
+
+"im_saved_group" = "已保存的群";
+"im_group_chat" = "群聊";
+"im_group_name_pl" = "未命名";
+
+"empty_saved_group" = "没有已保存的群";
+
+"im_group_title_format" = "群聊(%d人)";
+"group_member_number" = "%d人";
+
+"im_resend_msg" = "是否要重新发送这条消息?";
+
+"qr_hint_client_mismatch" = "请扫描客源信息";
+"qr_hint_client_mismatch_sale" = "请扫描求购客户";
+"qr_hint_client_mismatch_rent" = "请扫描求租客户";
+
+"qr_hint_house_mismatch" = "请扫描房源信息";
+"qr_hint_house_mismatch_sale" = "请扫描出售房源";
+"qr_hint_house_mismatch_rent" = "请扫描出租房源";
+
+"qr_house_added_already" = "该房源已添加过";
+"qr_client_added_already" = "该客户已添加过";
+
+"share_success" = "分享成功!";
+"sync_success" = "同步成功!";
+"share_to_cvsn" = "传播给同事";
+"share_to_collegue" = "分享给同事";
+"share_to_group" = "分享到群";
+"group_add_members" = "添加群成员";
+"group_add" = "添加";
+
+"company_msg" = "%@，您好！ 这里是公司下发通知和接收反馈的账号。您将在这里收到公司通知，如果您对公司有建议和意见，欢迎回复消息来表达。您可以在本app的“工具”-“同事通讯录”里找到这个账号。祝工作顺利。";
+"eall_msg" = "您好，感谢使用中环经纪人助手。如果您在使用过程中有任何疑问、意见或建议，请随时在这里发消息给我们，您将会得到我们友善的真人回复。";
+"new_house_msg" = "您好，关于新房客户跟进的提醒可以在这里看到。";
+
+"tag_urgent" = "急";
+"tag_access_2" = "公";
+"tag_access_1" = "私";
+"tag_full_price" = "全款";
+"tag_new" = "新";
+"tag_rent" = "租";
+"tag_sale" = "售";
+"tag_five" = "满五唯一";
+"tag_valid" = "有效";
+"tag_invalid" = "无效";
+
+"want_to_rent" = "欲租";
+"want_to_buy" = "欲购";
+
+"share_wb_lead" = "分享好房子：";
+"share_wb_nh_lead" = "新盘分享：";
+"share_new_house_title" = "新盘分享";
+"share_to_friend_lead" = "分享好房源-";
+"share_sms_lead_format" = "您好！ %@ %@ 为您推荐：";
+"share_mail_lead_format" = "您好！ \n\n%@ %@ 为您推荐%d套好房源：\n\n";
+"share_mail_lead_format_1" = "您好！ \n\n%@ %@ 为您推荐好房源：\n\n";
+"share_wx_Text_format" = "%@在%@公司看房记录";
+"share_new_house_lead_format" = "您好！%@ %@ 为您推荐：";
+
+"share_mail_subject_format_1" = "%@为您推荐精品好房源：%@";
+"share_mail_subject_format_n" = "%@为您推荐%d套精品好房源";
+"share_mail_subject_format_nh" = "%@为您推荐新盘";
+
+"visit_sms_lead_format" = "%@，您好！这是您的看房记录，请点击";
+"visit_mail_lead_format" = "%@，您好！\n\n 这是您在%@的看房记录：";
+"visit_mail_title_format" = "看房记录－%@";
+"visit_mail_all_logs" = "完整记录请点击%@。";
+"visit_month_day" = "%d月%d日";
+
+"invite_mail_lead_format_1" = "您好！ \n\n%@ %@ 邀您看房：\n\n";
+
+"sync_company_data" = "同步公司数据";
+"dial_not_supported" = "您的设备不支持拨打电话";
+"dial_confirm_format" = "呼叫 %@?";
+"call_contact" = "打电话";
+"sms_contact" = "发短信";
+"save_photo_success" = "已保存到相册";
+"alert_contact_not_fount" = "该委托人已离职，请使用电话或短信与他联系。";
+
+"confirm_leave_condition" = "您还没有保存条件，是否放弃编辑?";
+"confirm_leave_condition_give_up" = "放弃";
+
+"confirm_leave_photo_upload"  = "您要放弃上传照片吗？";
+"confirm_leave_video_upload"  = "您要放弃上传视频吗？";
+"confirm_giveup_video_upload" = "您的手机现在正在使用蜂窝数据网络（未连接wifi），是否现在上传？\r\n您也可以取消上传，连接wifi网络后再从本地上传。";
+"confirm_leave_photo_publish" = "您确定要放弃编辑么？";
+
+"amount_unit"      = "万";
+"amount_rent_unit" = "元";
+"room_unit"        = "室";
+"hall_unit"        = "厅";
+"area_unit"        = "平米";
+
+"No Results" = "无结果";
+"server_error" = "无法连接到服务器";
+"login_input" = "请填写%@";
+"recording too short" = "语音消息太短";
+
+"network_error" = "无法连接网络";
+"client_invited" = "待约看";
+"client_collected" = "已收藏";
+"btn_collected" = "已收藏";
+"btn_cancelcollected" = "已取消收藏";
+
+"prompt_none_image_mode" = "您的手机正在使用蜂窝数据网络（未连接 Wi-Fi），是否切换到无图模式，以节省流量？";
+"prompt_none_image_mode_yes" = "是，切换到无图模式";
+"prompt_none_image_mode_no" = "否";
+"prompt_none_image_mode_remember_choice" = "记住选择";
+"none_image_mode_switched" = "已切换到无图模式";
+"none_image_mode_setting_title" = "无图模式";
+"none_image_mode_setting_hint" = "用蜂窝网络数据时切换至无图模式：";
+"none_image_mode_0" = "每次询问";
+"none_image_mode_1" = "自动";
+"none_image_mode_2" = "不切换";
+"none_image_mode_desc" = "切换至无图模式时，不自动下载房源照片，以节省流量。\n\n连接Wi-Fi时，会自动关闭无图模式（恢复自动下载房源照片）。";
+
+"anonymous_call__remember_choice" = "不再提示";
+"anonymous_call_nav" = "和普通通话不同，使用隐号通话时，您会先接到呼叫中心的电话，您接听后等候对方接听。隐号通话将会全程录音。";
+"anonymous_call_cancel" = "取消";
+"anonymous_call_continue" = "继续";
+"anonymous_call_phone_title" = "请确认您的电话号码：";
+"anonymous_call_phone_right" = "正确，开始使用隐号拨打";
+"anonymous_call_phone_error" = "错误，我要修改";
+"anonymous_call_phone_cancel" = "取消";
+"anonymous_call_input_title" = "请输入您的正确电话号码（如果是座机，请连同区号一起输入）：";
+"anonymous_call_input_cancel" = "取消";
+"anonymous_call_input_save" = "保存";
+"anonymous_call_end_title" = "已发出隐号通话请求，您将很快接到呼叫中心的电话，届时请接听。";
+"anonymous_call_end_confirm" = "好的";
+"anonymous_call_phone" = "隐号通话";
+"anonymous_phone_error0" = "请输入正确的电话号码";
+"anonymous_phone_error1" = "请输入中国大陆地区电话号码";
+"anonymous_phone_error2" = "请输入手机号，或带区号的座机号";
+"anonymous_phone_error3" = "请输入正确的区号";
+"anonymous_call_setting_wait_title" = "您的用于隐号通话的电话号码";
+"anonymous_call_setting_wait_label1" = "您的用于隐号通话的电话号码%@已通过验证。";
+"anonymous_call_setting_wait_label2" = "但是，现在还用不了，大概需要个把小时来将您的号码加入呼叫中心的去电显示号码库。\n\n完成之后，我们会通知您。";
+"anonymous_call_setting_verify_sms" = "已向您的电话号码<b>%@</b>发送了验证码短信，收到后请在下方确认：";
+"anonymous_call_setting_verify_voice" = "您的电话号码<b>%@</b>即将接到一个电话，请接听，并记下验证码，然后在下方输入：";
+"anonymous_call_setting_verify_tel" = "如果收不到验证码，您也可以尝试通过电话来收听语音验证码。<u><a href='http://contact.open'>接听电话</a></u>";
+"anonymous_set_unstart" = "尚未启用";
+"anonymous_unreadable" = "无法读取";
+"anonymous_set_waitstart" = "等候启用";
+"anonymous_fix_number_alert" = "如果有多人同时使用这部电话，那么可能无法正常进行隐号通话 —— 当呼叫中心打过来的时候，可能被其他人接听。";
+"anonymous_confirm_phone" = "请确认您用于隐号通话的电话号码：\n%@";
+"anonymous_enable_propmt" = "如要开启隐号通话功能，请联系ERP管理员，请其以admin身份登录ERP，然后在“决策设置”中开启“隐号通话”功能。";
+"anonymous_not_readable" = "目前无法连接网络，无法获悉贵公司是否已启用隐号通话功能，也无法读取正在使用的隐号通话电话号码。";
+
+"mail_greeting" = "祝您万事如意。";
+"cannot_send_mail" = "您的设备暂时不支持发邮件！";
+
+"map_current_center" = "[图钉所处位置]";
+"map_current_center_01" = "[您当前所处位置]";
+"location_fetch_error" = "定位失败";
+"location" = "位置";
+"my_location" = "我的位置";
+"go_there" = "路线";
+"map_system" = "系统自带地图";
+"map_baidu" = "百度地图";
+"map_amap" = "高德地图";
+"map_google" = "Google Maps";
+
+"custom_condition_limit" = "自订特选条件数量达到上限（10个）。";
+
+"guide_1_title" = "随时随地查房源、客源";
+"guide_1_subtitle" = "搜索、筛选、查看记录、一应俱全";
+"guide_2_title" = "给客户发房源不用徒手敲短信";
+"guide_2_subtitle" = "还能发微信、微博、朋友圈";
+"guide_3_title" = "二维码";
+"guide_3_subtitle" = "登录ERP、快速查看房源或客源";
+"guide_4_title" = "每天自动选出精品房源";
+"guide_5_title" = "处处贴心";
+
+"guide_5_subtitle0" = "最近查看过的房源";
+"guide_5_subtitle1" = "最近查看过的客户";
+"guide_5_subtitle2" = "为房源匹配客户";
+"guide_5_subtitle3" = "为客户匹配房源";
+"guide_5_subtitle4" = "精美看房邀请";
+"guide_5_subtitle5" = "带看记录";
+"guide_5_subtitle6" = "房贷计算器";
+
+"photo_uploading_limit_warn"     = "本房源下图片已达到限制，无法继续添加";
+
+"search_with_image" = "有照片";
+
+"price_custom_cell"       = "指定价格区间";
+"area_custom_cell"        = "指定面积区间";
+"price_custom_title"      = "请输入价格范围";
+"area_custom_title"       = "请输入面积范围";
+"price_rent_custom_down"  = "起始价格(元)";
+"price_rent_custom_up"    = "截止价格(元)";
+"price_sale_custom_down"  = "起始价格(万)";
+"price_sale_custom_up"    = "截止价格(万)";
+"area_custom_down"        = "起始面积(平米)";
+"area_custom_up"          = "截止面积(平米)";
+
+"alert_custom_price"      = "起始价格不能大于截止价格";
+"alert_custom_area"       = "起始面积不能大于截止面积";
+"alert_empty_price"       = "请输入价格";
+"alert_empty_area"        = "请输入面积";
+
+"add_visit_log"           = "添加带看记录";
+"visit_log_placeholder"   = "请输入带看记录";
+"commit"                  = "提交";
+
+"btn_add_visit_house"     = "这次带客户看过的房源";
+"alert_add_visit_house"   = "￼￼请添加带客户看过的房源";
+"alert_save_visit_house"  = "确定放弃此条带看记录?";
+"add_visit_house_title"   = "带客户看过的房源";
+"add_visit_house"         = "添加已带看的房源";
+"sel_invited_house"       = "从已邀请约看的房源中选择";
+"invited_house_title"     = "已邀请约看的房源";
+"btn_add_visit_complete"  = "完成";
+
+"operation_modify"               = "编辑%@信息";
+"operation_modify_report"        = "举报";
+"operation_modify_status"        = "变更状态";
+"operation_modify_recommend_tag" = "变更推荐标签";
+
+"validity_title"          = "有效性";
+"access_title"            = "归属";
+"rent_expiration_title"   = "租期截止日期";
+"rent_expiration_time"    = "<a href='http://datePicker.open'>%@</a>";
+"change_status_reason"    = "变更状态原因";
+
+"client_changestatus_allow"  = "您没有权限编辑客源,请联系公司IT管理员";
+
+"tag_can_access"          = "公盘";
+"tag_cannot_access"       = "私盘";
+"select_data_hint"        = "选择日期";
+"house_status_other_rent" = "他租";
+"house_status_valid"      = "有效";
+"alert_input_status_reason"   = "请填写“变更状态原因”";
+"alert_set_expiration_time"   = "请选择租期截止日期";
+"rent_expiration_time_format" = "yyyy年MM月dd日";
+
+"rec_tag_urgent"              = "急切";
+"rec_tag_full_price"          = "全款";
+"alert_save_change_tag"       = "您确定要放弃此次变更么?";
+"action_sheet_report_title"   = "请选择举报类型";
+"report_reason_placeholder"   = "请填写举报理由";
+"alert_input_report_reason"   = "￼请填写“举报理由”";
+"alert_save_report"           = "确定放弃举报?";
+"other_info"                  = "其他信息";
+"other_info_controller_title" = "请选择要添加的信息";
+
+"house_purpose_0"              = "其他";
+"house_purpose_1"              = "别墅";
+"house_purpose_2"              = "厂房";
+"house_purpose_3"              = "车位";
+"house_purpose_4"              = "公寓";
+"house_purpose_5"              = "商铺";
+"house_purpose_6"              = "商用";
+"house_purpose_7"              = "土地";
+"house_purpose_8"              = "写字楼";
+"house_purpose_9"              = "住宅";
+
+"btn_process_next_title"       = "下一步";
+"btn_process_done_title"       = "完成";
+
+"house_edit_owner_title"       = "编辑业主信息";
+"house_edit_basic_title"       = "编辑房源基本信息";
+"house_edit_detail_title"      = "编辑房源详细信息";
+
+"house_edit_title"             = "编辑房源信息";
+"house_edit_page_header"       = "请选择您要编辑的内容：";
+"house_edit_item_title_0"      = "业主";
+"house_edit_item_title_1"      = "基本信息";
+"house_edit_item_title_2"      = "详细信息";
+
+"house_edit_item0_text_0"      = "• 业主名";
+"house_edit_item0_text_1"      = "• 联系方式";
+
+"house_edit_item1_text_0"      = "• 所在区域";
+"house_edit_item1_text_1"      = "• 小区名称";
+"house_edit_item1_text_2"      = "• 楼号、单元号、门牌号...";
+
+"house_edit_item2_text_0"      = "• 售价、面积、户型、楼层、朝向...";
+"house_edit_item2_text_1"      = "• 委托性质";
+"house_edit_item2_text_2"      = "• 全款、急切";
+"house_edit_item2_text_3"      = "• 产权相关信息";
+"house_edit_item2_text_4"      = "• 看房方式、交房日期";
+"house_edit_item2_text_5"      = "• 地段、地图...";
+
+"house_edit_hastime_warn_0"      = "编辑业主信息需消耗“当日看电话个数”，是否继续？（您今天还可查看%d个，需消耗 1 个）";
+"house_edit_hastime_warn_1"      = "编辑基本信息需消耗“当日看电话个数”，是否继续？（您今天还可查看%d个，需消耗 1 个）";
+"house_edit_nostime_warn_0"      = "很抱歉，编辑业主信息需消耗“当日看电话个数”，您今天还可查看 0 个，所以无法操作。您可以联系贵公司ERP管理员，请其以admin身份登录ERP，在“手机APP管理”下调整“看电话设置”。";
+"house_edit_nostime_warn_1"      = "很抱歉，编辑信息需消耗“当日看电话个数”，您今天还可查看 0 个，所以无法操作。您可以联系贵公司ERP管理员，请其以admin身份登录ERP，在“手机APP管理”下调整“看电话设置”。";
+
+"client_edit_hastime_warn"      = "编辑基本信息需消耗“当日看电话个数”，是否继续？（您今天还可查看%d个，需消耗 1 个）";
+"client_edit_nostime_warn"      = "很抱歉，编辑信息需消耗“当日看电话个数”，您今天还可查看 0 个，所以无法操作。您可以联系贵公司ERP管理员，请其以admin身份登录ERP，在“手机APP管理”下调整“看电话设置”。";
+
+"client_edit_basic_title"      = "编辑客户基本信息";
+"client_edit_detail_title"     = "编辑客户详细信息";
+
+"client_edit_title"            = "编辑客户信息";
+"client_edit_page_header"      = "请选择您要编辑的内容：";
+"client_edit_item_title_0"     = "基本信息";
+"client_edit_item_title_1"     = "详细信息";
+
+"client_edit_item0_text_0"     = "• 客户名";
+"client_edit_item0_text_1"     = "• 联系方式";
+
+"client_edit_item1_text_0"     = "• 区域、售价、面积、户型、楼层、朝向...";
+"client_edit_item1_text_1"     = "• 委托性质、沟通阶段";
+"client_edit_item1_text_2"     = "• 备注、核心备注";
+"client_edit_item1_text_3"     = "• 全款、急切";
+"client_edit_item1_text_4"     = "• 客户等级";
+"client_edit_item1_text_5"     = "• 客户详细情况...";
+
+"client_require_district"      = "需求区域";
+"client_require_reason"        = "需求原因";
+"client_require_floor"         = "楼层";
+"client_require_towards"       = "朝向";
+"client_require_house_age"     = "房龄";
+
+"house_text_community_0"       = "小区名称";
+"house_text_district_0"        = "所在区域";
+"house_add_exist_text_hint_0"  = "您输入的业主电话号码在ERP系统中已经有对应的房源，请检查您要录入的房源是否已在其中：";
+"house_add_exist_text_hint_2"  = "您输入的业主电话号码在ERP系统中已经有对应的房源，无法继续录入房源：";
+"house_add_exist_text_hint_1"  = "您输入的房源在ERP系统中已经存在，不能重复录入：";
+"client_add_exist_text_hint_0" = "您输入的电话号码在ERP系统中已经有对应的客户，请检查您要录入的客户是否已在其中：";
+"client_add_exist_text_hint_1" = "您输入的电话号码在ERP系统中已经有对应的客户，无法继续录入客户：";
+"client_add_community_text"    = "添加小区";
+"house_add_alert_text_0"       = "请输入业主电话号码";
+"house_add_alert_text_1"       = "请输入正确的电话号码";
+"house_add_alert_text_2"       = "请选择区域";
+"house_add_alert_text_3"       = "请输入%@";
+"house_add_alert_text_4"       = "请输入正确的%@";
+"house_add_alert_text_5"       = "请输入业主姓名";
+"client_add_alert_text_0"      = "请选择需求区域";
+"client_add_alert_text_1"      = "请输入客户姓名";
+"client_add_alert_text_2"      = "请输入客户电话号码";
+"house_add_alert_text_success" = "添加房源成功";
+"house_add_alert_text_failed"  = "添加房源失败";
+"house_edit_alert_text_success" = "修改房源成功";
+"house_edit_alert_text_failed"  = "修改房源失败";
+"client_add_alert_text_success" = "添加客户成功";
+"client_add_alert_text_failed" = "添加客户失败";
+"client_edit_alert_text_success" = "修改客户成功";
+"client_edit_alert_text_failed" = "修改客户失败";
+"house_add_photo_hint"         = "该房源尚未上传照片，您要上传照片么？";
+"edit_giveup_alert"            = "您确定要放弃编辑么？";
+"house_add_success"             = "您已成功提交新房源。";
+"house_up_photo_suggest_up"     = "为了让房源更具吸引力，建议您为其上传照";
+"house_up_photo_suggest_down"   = "片。";
+"house_up_photo_now"            = "现在上传";
+
+"new_house_list"                 = "http://xf.fboos2.com/m/xflist.php";
+"new_house_url_format"           = "http://xf.fboos2.com/m/xflist.php?cy=%@&comid=%@_%@&server_code=%@";
+"new_house_detail"               = "http://xf.fboos2.com/m/xfdetail.php";
+"new_house_detail_format"        = "http://xf.fboos2.com/m/xfdetail.php?id=%@";
+"new_house_follow_detail"        = "http://empolder.fboos2.com/follow";
+"new_filing_title"             = "新增报备";
+"input_name_and_phone"         = "请输入报备客户的姓名和手机号码:";
+"client_name_placeholder"      = "客户姓名";
+"client_phone_placeholder"     = "客户手机号";
+"filing_memo_placeholder"      = "备注";
+"alert_input_correct_name"     = "请输入正确的客户姓名";
+"alert_input_correct_phone"    = "请输入正确的手机号码";
+"alert_commit_success"         = "恭喜您，提交成功。";
+"alert_save_filing"            = "您确定要放弃提交么？";
+
+"select_client_title"          = "选择客户";
+"add_share_client"             = "添加客户";
+"search_share_client"          = "搜索客户";
+"added_share_client"           = "已添加客户";
+"sel_rencent_client"           = "从最近查看过的客户中选择";
+"sel_collected_client"         = "从已收藏过的客户中选择";
+
+"has_filing_title"             = "已报备";
+"has_follow_title"             = "已带看";
+"has_bargain_title"            = "已成交";
+"empty_new_house_follow"       = "当前暂⽆新房客户跟进信息。";
+"load_failure_hint"            = "加载失败，请重新加载。";
+"filing_memo_format"           = "备注：%@";
+"filing_reject_reason_format"  = "驳回：%@";
+"follow_detail_title"          = "跟进详情";
+
+"special_msg_eall"             = "中环经纪人助手";
+"special_msg_new_house"        = "新房客户跟进提醒";
+
+
+"photo_select_leave_num"       = "当前您还可以选择%d张照片";
+"photo_add_warn"               = "当前房源已经有%d张图片，无法选择更多";
+"photo_add_confirm"            = "知道了";
+
+"house_floor_format"           = "%@层";
+"house_age_format"             = "%@年";
+
+"search_subregion"             = "请输入小区名称";
+
+"need_add_name_code"           = "请选择称呼";
+
+"auth_fail"                    = "授权失败";
+"send_fail"                    = "发送失败";
+
+"tool_gather_publish_house"    = "采房/发房";
+
+"gp_gather_house"              = "采集";
+"gp_subscription"              = "订阅";
+"gp_subscription_unread"       = "订阅(%@)";
+"gp_bookmark"                  = "书签";
+"gp_inputed_erp"               = "已录入ERP";
+"gp_published"                 = "发布记录";
+"gp_to_publish"                = "待发布库";
+"gp_apponitment_publish"       = "预约发布";
+"gp_publish_port"              = "发房端口";
+
+"empty_gather_house"           = "当前暂无采集数据";
+"empty_publish_port"           = "没有添加发房端口";
+"gather_setting_title"         = "采集设置";
+
+"publish_select_port"          = "选择端口";
+"publish_port_add_title"       = "添加发房端口";
+"publish_port_add_vote_other"  = "投票要求增加其他发房端口";
+
+"gp_sale_price_format"         ="%@万";
+"gp_rent_price_format"         ="%@元";
+"gp_area_format"               = "%@m²";
+"gp_click_number_format"       = "点击 %d";
+"gp_report_number_format"      = "举报 %d";
+"gp_gather_number_format"      = "已录入 %d";
+
+"gather_house_bookmarked"      = "已加入书签";
+"gather_house_port_tip_1"      = "%@（";
+"gather_house_port_tip_2"      = "查看原链接";
+"gather_house_port_tip_3"      = "），%@";
+"gather_house_info_format"     = "• %@";
+"gather_house_sale_price"           = "%@万元";
+"gather_house_rent_price"           = "%@元/月";
+"gather_house_floor"               = "%@层/%@层";
+"gather_house_tel_repeat"          = "ERP系统内已有业主电话相同的房源";
+"gather_house_tel_view"            = "查看";
+"gather_house_tel_repeat_list_title"          = "ERP内与此业主电话相同的房源";
+"gather_house_erp_list_empty"      = "没有已录入ERP的房源";
+"gather_house_phone_call_input"    = "请输入上图中的电话号码，然后拨打。";
+
+"gather_house_add_erp_title"       = "录入ERP";
+"gather_house_publish_port"        = "发布到端口";
+"gather_house_add_bookmark"        = "加入书签";
+"gather_house_remove_bookmark"     = "移出书签";
+"gather_house_report"              = "举报";
+
+"gather_house_add_erp_success"     = "已录入 ERP";
+
+"publish_order_time"               = "预约发布时间";
+"publish_order_set_time"           = "请设置时间";
+
+"publish_port_outdate"             = "端口已过期";
+
+"publish_record_change"            = "修改后重新发布";
+"publish_record_delete"            = "删除";
+"publish_record_delete_warn"       = "您确认要删除这条房源吗？";
+"publish_record_delete_success"    = "删除成功";
+
+"publish_house_empty"              = "没有已发布的房源";
+"publish_appoint_empty"            = "没有预约发布房源";
+"publish_appoint_change"           = "修改后重新预约";
+"publish_appoint_delete"           = "删除预约";
+"publish_appoint_delete_warn"      = "您确认要删除这条预约吗？";
+"publish_appoint_delete_certain"   = "确认";
+"publish_appoint_delete_cancel"    = "取消";
+"publish_appoint_delete_success"   = "删除成功";
+
+"add_subscription"                  = " 订阅条件";
+"title_subscription"                = "订阅条件";
+"pl_subscription_name"              = "请输入订阅条件名称";
+"empty_subscription"                = "没有指定订阅条件。\n您可以点击左上方的“+”来添加新的订阅条件。";
+"alert_max_subscription_account"    = "指定订阅条件数量达到上限（10个）。";
+"alert_subscription_name"           = "请为订阅条件输入名称";
+"alert_subscription_name_length"    = "订阅名称请不要超过10个字!";
+"empty_subscription_house"          = "没有采集到符合订阅条件的房源";
+"confirm_delete_subscription"       = "确认删除该订阅条件?";
+"gp_max_unread_count"               = "99+";
+
+"empty_bookmark_house"              = "没有书签。\n您可以在采集到的房源详情界面点击右上角\n“更多”中的“加入书签”来添加书签。";
+"alert_add_bookmark"                = "已加入书签";
+"alert_remove_bookmark"             = "已移出书签";
+
+"alert_report_title"                = "举报房源";
+"alert_report_msg"                  = "您确定要举报当前房源么?";
+"alert_already_report"              = "您已经举报过当前房源";
+
+"gather_setting_region"             = "采房区域";
+"gather_setting_source"             = "采集源";
+"gather_setting_redion_format"      = "<a href='http://set.gather.region'>%@，%@</a>";
+"gather_setting_add_source"         = "<a href='http://vote.source.open'>+ 投票要求增加其他源</a>";
+"gather_setting_district_unlimited" = "不限";
+"alert_save_gather_setting"         = "您尚未保存采集设置，确定要放弃么？";
+
+"empty_candidate_gather_source"     = "没有候选采集源，请添加。";
+"vote_to_add_gather_source"         = "投票要求增加其他源";
+"vote_gather_source_name"           = "名称";
+"vote_gather_source_numbers"        = "得票数";
+"vote_gather_source_vote"           = "投票";
+"vote_add_candidate"                = "+候选";
+"alert_add_source_title"            = "添加候选采集源(网站或 app 名称)";
+"alert_add_source_hint_name"        = "请输入候选采集源名称（必填）";
+"alert_add_source_hint_website"     = "请输入候选采集源网址（必填）";
+"alert_add_source_name"             = "请输入候选采集源名称";
+"alert_add_source_website"          = "请输入候选采集源网址";
+
+"empty_candidate_publish_port"      = "没有候选发房端口，请添加。";
+"vote_to_add_publish_port"          = "投票加端口";
+"alert_publish_port_title"          = "添加候选发房端口(网站或 app 名称)";
+"alert_publish_port_hint_name"      = "请输入候选发房端口名称（必填）";
+"alert_publish_port_hint_website"   = "请输入候选发房端口网址（必填）";
+"alert_publish_port_name"           = "请输入候选发房端口名称";
+"alert_publish_port_website"        = "请输入候选发房端口网址";
+
+"gather_subscription_notify"        = "订阅条件房源通知";
+
+"publish_to_port_success1"          = "提交成功，当前房源正在发布到您所选择的端口。";
+"publish_to_port_success2"          = "如果发布失败，我们会使用推送消息提醒您。";
+"publish_record_fail_tip"           = "发布失败";
+"publish_record_fail_tip_format"    = "端口反馈：%@";
+
+"house_gather_source_fromat"        = "采自 : %@";
+"publish_port_auth_success"         = "已成功添加";
+

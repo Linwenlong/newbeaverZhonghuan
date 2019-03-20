@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view multipleTouchEnabled="YES" contentMode="scaleToFill" id="Buj-VT-PpP" customClass="TransferHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="节点已执行" translatesAutoresizingMaskIntoConstraints="NO" id="lA8-aq-WZZ">
+                    <rect key="frame" x="33" y="27" width="14" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="FfX-3q-h48"/>
+                        <constraint firstAttribute="width" constant="14" id="rcG-De-mOm"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="乙方解压还贷" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLM-SX-D8L" userLabel="标题lbl">
+                    <rect key="frame" x="12" y="51" width="56" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="6QB-Y9-xvq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8i-69-OgO" userLabel="midLineLeft">
+                    <rect key="frame" x="-1" y="33" width="34" height="2"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="0hs-ns-Jq9"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCZ-sp-qF4" userLabel="midLineRight">
+                    <rect key="frame" x="47" y="33" width="34" height="2"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="9xC-3I-U8B"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lA8-aq-WZZ" firstAttribute="leading" secondItem="S8i-69-OgO" secondAttribute="trailing" id="Ap1-zf-cBj"/>
+                <constraint firstItem="S8i-69-OgO" firstAttribute="leading" secondItem="Buj-VT-PpP" secondAttribute="leading" constant="-1" id="HCA-Lr-Nxd"/>
+                <constraint firstItem="RCZ-sp-qF4" firstAttribute="centerY" secondItem="lA8-aq-WZZ" secondAttribute="centerY" id="IWq-HI-3ke"/>
+                <constraint firstItem="lA8-aq-WZZ" firstAttribute="centerX" secondItem="Buj-VT-PpP" secondAttribute="centerX" id="MNX-yh-ccI"/>
+                <constraint firstItem="fLM-SX-D8L" firstAttribute="centerX" secondItem="Buj-VT-PpP" secondAttribute="centerX" id="U3r-AJ-e3Z"/>
+                <constraint firstAttribute="trailing" secondItem="fLM-SX-D8L" secondAttribute="trailing" constant="12" id="VEb-1J-T1h"/>
+                <constraint firstItem="fLM-SX-D8L" firstAttribute="top" secondItem="lA8-aq-WZZ" secondAttribute="bottom" constant="10" id="Zr2-ze-g6J"/>
+                <constraint firstItem="fLM-SX-D8L" firstAttribute="leading" secondItem="Buj-VT-PpP" secondAttribute="leading" constant="12" id="gaU-mz-jng"/>
+                <constraint firstAttribute="trailing" secondItem="RCZ-sp-qF4" secondAttribute="trailing" constant="-1" id="idg-lT-L16"/>
+                <constraint firstItem="RCZ-sp-qF4" firstAttribute="leading" secondItem="lA8-aq-WZZ" secondAttribute="trailing" id="isG-zX-wtv"/>
+                <constraint firstItem="lA8-aq-WZZ" firstAttribute="centerY" secondItem="S8i-69-OgO" secondAttribute="centerY" id="m3u-Hd-kER"/>
+                <constraint firstItem="lA8-aq-WZZ" firstAttribute="centerY" secondItem="Buj-VT-PpP" secondAttribute="centerY" constant="-17.5" id="w0e-IQ-Lu2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentLbl" destination="fLM-SX-D8L" id="kcd-aX-aFk"/>
+                <outlet property="midLineLeft" destination="S8i-69-OgO" id="sNf-tt-oO9"/>
+                <outlet property="midLineRight" destination="RCZ-sp-qF4" id="cY6-sn-x0N"/>
+                <outlet property="smallIcon" destination="lA8-aq-WZZ" id="SrQ-Vd-qle"/>
+            </connections>
+            <point key="canvasLocation" x="105" y="164.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="节点已执行" width="13" height="13"/>
+    </resources>
+</document>

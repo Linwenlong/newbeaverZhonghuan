@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="DiSanFangHuJiaoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hidden_zhanghao.png" translatesAutoresizingMaskIntoConstraints="NO" id="PCJ-zW-MvC">
+                        <rect key="frame" x="6" y="8" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="CBV-ah-5Nr"/>
+                            <constraint firstAttribute="width" constant="32" id="dJj-Nu-3eT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="账号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgW-Hv-X3Z">
+                        <rect key="frame" x="43" y="12" width="53" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="8ja-Xv-l4d"/>
+                            <constraint firstAttribute="width" constant="53" id="Otu-Oc-yft"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhg-uI-CuS">
+                        <rect key="frame" x="138" y="12" width="167" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="T9u-CR-iLA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PCJ-zW-MvC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="6" id="7md-0P-tMh"/>
+                    <constraint firstItem="xhg-uI-CuS" firstAttribute="leading" secondItem="xgW-Hv-X3Z" secondAttribute="trailing" constant="42" id="AY6-UL-5Uc"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xhg-uI-CuS" secondAttribute="trailing" constant="15" id="Dwl-zX-1iK"/>
+                    <constraint firstItem="xgW-Hv-X3Z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="12" id="E1P-Q7-Cfh"/>
+                    <constraint firstItem="xgW-Hv-X3Z" firstAttribute="leading" secondItem="PCJ-zW-MvC" secondAttribute="trailing" constant="5" id="fSs-Cf-gS1"/>
+                    <constraint firstItem="xhg-uI-CuS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="12" id="tdx-sq-VzN"/>
+                    <constraint firstItem="PCJ-zW-MvC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="zH3-zG-Ahq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="icon" destination="PCJ-zW-MvC" id="ifJ-Kj-hQ1"/>
+                <outlet property="zhanghao" destination="xgW-Hv-X3Z" id="pJ7-SK-Xqd"/>
+                <outlet property="zhanghaoactucl" destination="xhg-uI-CuS" id="rAn-ZZ-5a1"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="hidden_zhanghao.png" width="60" height="60"/>
+    </resources>
+</document>
